@@ -45,7 +45,7 @@ if(navigator.geolocation) {
 
 var infowindow = new google.maps.InfoWindow(
   { 
-    size: new google.maps.Size(150,50)
+    size: new google.maps.Size(200,50)
 
   });
 

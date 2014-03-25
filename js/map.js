@@ -19,7 +19,7 @@ if(navigator.geolocation) {
    var infowindow = new google.maps.InfoWindow({
      map: map,
      position: pos,
-     content: 'You are here, in need of pizza.'
+     content: 'You are here, needing pizza.'
    });
 
    map.setCenter(pos);
